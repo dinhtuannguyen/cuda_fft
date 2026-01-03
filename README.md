@@ -56,15 +56,11 @@ Achieving cuFFT-level performance (approximately 300 GFLOPS on P100) would requi
 
 The Cooley-Tukey radix-2 FFT computes the Discrete Fourier Transform in O(N log N) time by recursively decomposing the problem. The DFT is defined as:
 
-```
 ![The discrete Fourier transform (DFT) formula](docs/images/dft_formula.png)
-```
 
 The algorithm decomposes this into smaller DFTs of even and odd indexed elements:
 
-```
 ![Cooley-Tukey radix-2 decimation-in-time (DIT) FFT decomposition](docs/images/fft_decomission.png)
-```
 
 where W^k = exp(-2*pi*i*k/N) is the twiddle factor. This butterfly operation is repeated log2(N) times across N/2 pairs of elements.
 
