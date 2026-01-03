@@ -191,10 +191,10 @@ Python/Numba has inherent limitations. Achieving cuFFT-level performance require
 
 This FFT implementation is part of my GPU computing portfolio:
 
-- [CUDA Matrix Multiplication](https://github.com/maltsev-andrey/cuda_gemm) - Achieved 6,436 GFLOPS, 69% of P100 peak
-- [N-Body Gravitational Simulation](https://github.com/maltsev-andrey/n_body_simulation) - 13,050x speedup over CPU
-- [Neural Network Inference Accelerator](https://github.com/maltsev-andrey/cuda_nn_inference) - 88,300 images/second
-- [Sparse Matrix Operations](https://github.com/maltsev-andrey/cuda_sparse) - 53% of cuSPARSE performance
+- [CUDA Matrix Multiplication](https://github.com/maltsev-andrey/cuda-matrix-multiplication) - Achieved 6,436 GFLOPS, 69% of P100 peak
+- [N-Body Gravitational Simulation](https://github.com/maltsev-andrey/n-body-simulation) - 13,050x speedup over CPU
+- [Neural Network Inference Accelerator](https://github.com/maltsev-andrey/cuda-nn-inference) - 88,300 images/second
+- [Sparse Matrix Operations](https://github.com/maltsev-andrey/sparse_kernels) - 53% of cuSPARSE performance
 
 ## Author
 
